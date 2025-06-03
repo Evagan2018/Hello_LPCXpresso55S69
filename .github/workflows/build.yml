@@ -39,4 +39,4 @@ jobs:
       # Build the release and debug executable for the AC6 compiler
       - name: Build release and debug executable
         run: |
-          cbuild hello.csolution.yml --packs --context .+LPCXpresso55S69 --rebuild
+          cbuild hello.csolution.yml --packs --context .+LPCXpresso55S69 --rebuild --update-rte  
