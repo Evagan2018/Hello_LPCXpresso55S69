@@ -48,3 +48,9 @@ project:
   linker:
     - script: RTE/Device/LPC55S69JBD100_cm33_core0/LPC55S69_cm33_core0_flash.scf
       for-compiler: AC6
+
+  output:
+    type:
+    - elf
+    - hex
+    - map

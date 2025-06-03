@@ -9,11 +9,9 @@ cbuild-pack:
     - resolved-pack: ARM::CMSIS-RTX@5.8.0
       selected-by-pack:
         - ARM::CMSIS-RTX
-        - ARM::CMSIS-RTX@5.8.0
     - resolved-pack: NXP::LPC55S69_DFP@16.1.0
       selected-by-pack:
         - NXP::LPC55S69_DFP
-        - NXP::LPC55S69_DFP@16.1.0
     - resolved-pack: NXP::LPCXpresso55S69_BSP@19.0.0
       selected-by-pack:
         - NXP::LPCXpresso55S69_BSP
