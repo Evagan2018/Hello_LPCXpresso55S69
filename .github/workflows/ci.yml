@@ -1,7 +1,7 @@
 name: Publishable
 concurrency:
   group: ${{ github.repository }}-${{ github.workflow }}-${{ inputs.branch || github.head_ref || github.ref }}
-  cancel-in-progress: 'true'
+  cancel-in-progress: true
 'on':
   workflow_dispatch: null
 jobs:
